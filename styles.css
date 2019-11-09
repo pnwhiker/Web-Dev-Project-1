@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: skyblue;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,8 +43,15 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: whitesmoke;
 }
+
+.nav .name2 {
+  display: block;
+  text-align: right;
+  color: whitesmoke;
+}
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -69,12 +76,12 @@ header .profile-image {
   margin-top: 50px;
   width: 250px;
   height: 250px;
-  border-radius: 50%;
+  border-radius: 15%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2);
 }
 
 header .header-image {
